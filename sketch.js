@@ -1,6 +1,6 @@
 
 function preload(){
-  imgjson = loadJSON('jsondata.json');
+  imgjson = loadJSON('https://raw.githubusercontent.com/theenigmacodex/FriendsFourierHosting/master/jsondata.json');
   ref = loadImage('img/whoCouldItBeEh.png');
 }
 function setup() {
